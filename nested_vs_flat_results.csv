@@ -1,0 +1,7 @@
+timestamp,data_type,label,chars,bytes,lines,tokens_est,error
+2026-05-31 20:03:34,flat,JSON (sıkıştırılmış),12887,12887,1,4007,
+2026-05-31 20:03:34,flat,TOON,5334,5334,203,2334,
+2026-05-31 20:03:34,flat,XML (minified),17913,17913,1,6213,
+2026-05-31 20:03:34,nested,JSON (sıkıştırılmış),6987,6987,1,2403,
+2026-05-31 20:03:34,nested,XML (minified),9904,9904,1,3609,
+2026-05-31 20:03:34,nested,TOON,,,,,Nested data found in field 'address'. TOON only supports flat tabular data.
