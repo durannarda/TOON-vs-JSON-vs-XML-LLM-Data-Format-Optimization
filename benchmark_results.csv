@@ -1,0 +1,199 @@
+timestamp,model,data_type,max_records,question,format,runs,accuracy_pct,avg_prompt_tokens,avg_ttft_s,avg_total_time_s,data_chars,data_bytes,overflow,last_answer
+2026-05-31 20:05:22,gemma3:1b,flat,all,How many records are in the users list and what are their field names?,json,3,100.0,4096.0,3.181,5.166,12887,12887,False,"Okay, let's analyze the provided data to answer your question.
+
+**Number of Records:**
+
+There are 100 records in the `users` list.
+
+**Field Names:**
+
+The `users` list contains the following fields:
+
+1.  `id`: (integer) - Unique identifier for each user.
+2.  `name`: (string) - User's name.
+3.  `role`: (string) - User's role (e.g., ""user"", ""admin"").
+4.  `status`: (string) - User's status (e.g., ""active"", ""pending"").
+
+Let me know if you'd like me to elaborate on any of these fields or have further questions!"
+2026-05-31 20:05:22,gemma3:1b,flat,all,How many records are in the users list and what are their field names?,toon,3,100.0,3044.0,2.384,22.583,5334,5334,False,"There are 100 records in the users list. Their field names are:
+
+*   User\_1: id, name, role, status
+*   User\_2: id, name, role, status
+*   User\_3: id, name, role, status
+*   User\_4: id, name, role, status
+*   User\_5: id, name, role, status
+*   User\_6: id, name, role, status
+*   User\_7: id, name, role, status
+*   User\_8: id, name, role, status
+*   User\_9: id, name, role, status
+*   User\_10: id, name, role, status
+*   User\_11: id, name, role, status
+*   User\_12: id, name, role, status
+*   User\_13: id, name, role, status
+*   User\_14: id, name, role, status
+*   User\_15: id, name, role, status
+*   User\_16: id, name, role, status
+*   User\_17: id, name, role, status
+*   User\_18: id, name, role, status
+*   User\_19: id, name, role, status
+*   User\_20: id, name, role, status
+*   User\_21: id, name, role, status
+*   User\_22: id, name, role, status
+*   User\_23: id, name, role, status
+*   User\_24: id, name, role, status
+*   User\_25: id, name, role, status
+*   User\_26: id, name, role, status
+*   User\_27: id, name, role, status
+*   User\_28: id, name, role, status
+*   User\_29: id, name, role, status
+*   User\_30: id, name, role, status
+*   User\_31: id, name, role, status
+*   User\_32: id, name, role, status
+*   User\_33: id, name, role, status
+*   User\_34: id, name, role, status
+*   User\_35: id, name, role, status
+*   User\_36: id, name, role, status
+*   User\_37: id, name, role, status
+*   User\_38: id, name, role, status
+*   User\_39: id, name, role, status
+*   User\_40: id, name, role, status
+*   User\_41: id, name, role, status
+*   User\_42: id, name, role, status
+*   User\_43: id, name, role, status
+*   User\_44: id, name, role, status
+*   User\_45: id, name, role, status
+*   User\_46: id, name, role, status
+*   User\_47: id, name, role, status
+*   User\_48: id, name, role, status
+*   User\_49: id, name, role, status
+*   User\_50: id, name, role, status
+*   User\_51: id, name, role, status
+*   User\_52: id, name, role, status
+*   User\_53: id, name, role, status
+*   User\_54: id, name, role, status
+*   User\_55: id, name, role, status
+*   User\_56: id, name, role, status
+*   User\_57: id, name, role, status
+*   User\_58: id, name, role, status
+*   User\_59: id, name, role, status
+*   User\_60: id, name, role, status
+*   User\_61: id, name, role, status
+*   User\_62: id, name, role, status
+*   User\_63: id, name, role, status
+*   User\_64: id, name, role, status
+*   User\_65: id, name, role, status
+*   User\_66: id, name, role, status
+*   User\_67: id, name, role, status
+*   User\_68: id, name, role, status
+*   User\_69: id, name, role, status
+*   User\_70: id, name, role, status
+*   User\_71: id, name, role, status
+*   User\_72: id, name, role, status
+*   User\_73: id, name, role, status
+*   User\_74: id, name, role, status
+*   User\_75: id, name, role, status
+*   User\_76: id, name, role, status
+*   User\_77: id, name, role, status
+*   User\_78: id, name, role, status
+*   User\_79: id, name, role, status
+*   User\_80: id, name, role, status
+*   User\_81: id, name, role, status
+*   User\_82: id, name, role, status
+*   User\_83: id, name, role, status
+*   User\_84: id, name, role, status
+*   User\_85: id, name, role, status
+*   User\_86: id, name, role, status
+*   User\_87: id, name, role, status
+*   User\_88: id, name, role, status
+*   User\_89: id, name, role, status
+*   User\_90: id, name, role, status
+*   User\_91: id, name, role, status
+*   User\_92: id, name, role, status
+*   User\_93: id, name, role, status
+*   User\_94: id, name, role, status
+*   User\_95: id, name, role, status
+*   User\_96: id, name, role, status
+*   User\_97: id, name, role, status
+*   User\_98: id, name, role, status
+*   User\_99: id, name, role, status"
+2026-05-31 20:05:22,gemma3:1b,flat,all,How many records are in the users list and what are their field names?,xml,3,0.0,4096.0,3.177,7.548,17913,17913,False,"Based on the provided data, there are 99 records in the `users` list.
+
+Here’s a breakdown of the field names for each record:
+
+*   **User_ID:** 60 - Unique identifier for each user.
+*   **User_Name:** 61 - User's name.
+*   **User_Email:** 62 - User's email address.
+*   **User_ID:** 63 - Unique identifier for each user.
+*   **User_Name:** 64 - User's name.
+*   **User_ID:** 65 - Unique identifier for each user.
+*   **User_Name:** 66 - User's name.
+*   **User_ID:** 67 - Unique identifier for each user.
+*   **User_Name:** 68 - User's name.
+*   **User_ID:** 69 - Unique identifier for each user.
+*   **User_Name:** 70 - User's name.
+*   **User_ID:** 71 - Unique identifier for each user.
+*   **User_Name:** 72 - User's name.
+*   **User_ID:** 73 - Unique identifier for each user.
+*   **User_Name:** 74 - User's name.
+*   **User_ID:** 75 - Unique identifier for each user.
+*   **User_Name:** 76 - User's name.
+*   **User_ID:** 77 - Unique identifier for each user.
+*   **User_Name:** 78 - User's name.
+*   **User_ID:** 79 - Unique identifier for each user.
+*   **User_Name:** 80 - User's name.
+*   **User_ID:** 81 - Unique identifier for each user.
+*   **User_Name:** 82 - User's name.
+*   **User_ID:** 83 - Unique identifier for each user.
+*   **User_Name:** 84 - User's name.
+*   **User_ID:** 85 - Unique identifier for each user.
+*   **User_Name:** 86 - User's name.
+*   **User_ID:** 87 - Unique identifier for each user.
+*   **User_Name:** 88 - User's name.
+*   **User_ID:** 89 - Unique identifier for each user.
+*   **User_Name:** 90 - User's name.
+*   **User_ID:** 91 - Unique identifier for each user.
+*   **User_Name:** 92 - User's name.
+*   **User_ID:** 93 - Unique identifier for each user.
+*   **User_Name:** 94 - User's name.
+*   **User_ID:** 95 - Unique identifier for each user.
+*   **User_Name:** 96 - User's name.
+*   **User_ID:** 97 - Unique identifier for each user.
+*   **User_Name:** 98 - User's name.
+*   **User_ID:** 99 - Unique identifier for each user.
+
+There are 99 records."
+2026-05-31 20:05:50,gemma3:1b,flat,all,What is the capital of Country_42?,json,3,0.0,4096.0,3.169,3.664,12887,12887,False,"```python
+print(""Country_42's capital is Valletta"")
+```"
+2026-05-31 20:05:50,gemma3:1b,flat,all,What is the capital of Country_42?,toon,3,0.0,3039.0,2.368,2.512,5334,5334,False,"42,42,"
+2026-05-31 20:05:50,gemma3:1b,flat,all,What is the capital of Country_42?,xml,3,0.0,4096.0,3.18,3.229,17913,17913,False,C: 181
+2026-05-31 20:06:52,gemma3:1b,flat,all,How many users have the 'admin' role?,json,3,100.0,4096.0,3.173,14.874,12887,12887,False,"```json
+{
+""users"": [
+{""id"":1,""name"":""User_1"",""role"":""user"",""status"":""active""},
+{""id"":2,""name"":""User_2"",""role"":""user"",""status"":""active""},
+{""id"":3,""name"":""User_3"",""role"":""user"",""status"":""active""},
+{""id"":4,""name"":""User_4"",""role"":""user"",""status"":""active""},
+{""id"":5,""name"":""User_5"",""role"":""user"",""status"":""active""},
+{""id"":6,""name"":""User_6"",""role"":""user"",""status"":""active""},
+{""id"":7,""name"":""User_7"",""role"":""user"",""status"":""active""},
+{""id"":8,""name"":""User_8"",""role"":""user"",""status"":""active""},
+{""id"":9,""name"":""User_9"",""role"":""user"",""status"":""active""},
+{""id"":10,""name"":""User_10"",""role"":""admin"",""status"":""active""},
+{""id"":11,""name"":""User_11"",""role"":""user"",""status"":""active""},
+{""id"":12,""name"":""User_12"",""role"":""user"",""status"":""active""},
+{""id"":13,""name"":""User_13"",""role"":""user"",""status"":""active""},
+{""id"":14,""name"":""User_14"",""role"":""user"",""status"":""active""},
+{""id"":15,""name"":""User_15"",""role"":""user"",""status"":""active""},
+{""id"":16,""name"":""User_16"",""role"":""user"",""status"":""active""},
+{""id"":17,""name"":""User_17"",""role"":""user"",""status"":""active""},
+{""id"":18,""name"":""User_18"",""role"":""user"",""status"":""active""},
+{""id"":19,""name"":""User_19"",""role"":""user"",""status"":""active""},
+{""id"":20,""name"":""User_20"",""role"":""admin"",""status"":""active""}
+]
+}
+```
+
+Based on the provided data, there are 10 users with the ""admin"" role."
+2026-05-31 20:06:52,gemma3:1b,flat,all,How many users have the 'admin' role?,toon,3,66.66666666666666,3039.0,2.382,2.405,5334,5334,False,10
+2026-05-31 20:06:52,gemma3:1b,flat,all,How many users have the 'admin' role?,xml,3,0.0,4096.0,3.198,3.369,17913,17913,False,There is 1 user with the 'admin' role.
